@@ -41,7 +41,6 @@
 
 #ifndef SERVICEINFO_H
 #define SERVICEINFO_H
-#include <QtBluetooth/QLowEnergyService>
 #include "bluez/lowenergyservice.h"
 
 class ServiceInfo: public QObject

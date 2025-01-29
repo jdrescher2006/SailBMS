@@ -42,8 +42,6 @@
 #include "characteristicinfo.h"
 #include <QByteArray>
 
-#include <QtBluetooth/QLowEnergyDescriptor>
-
 CharacteristicInfo::CharacteristicInfo()
 {
 }

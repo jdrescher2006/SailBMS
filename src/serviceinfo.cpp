@@ -70,12 +70,12 @@ QString ServiceInfo::getType() const
         return QString();
 
     QString result;
-    if (m_service->type() & QLowEnergyService::PrimaryService)
+    if (m_service->type() & LowEnergyService::PrimaryService)
         result += QStringLiteral("primary");
     else
         result += QStringLiteral("secondary");
 
-    if (m_service->type() & QLowEnergyService::IncludedService)
+    if (m_service->type() & LowEnergyService::IncludedService)
         result += QStringLiteral(" included");
 
     result.prepend('<').append('>');
